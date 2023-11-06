@@ -1,0 +1,181 @@
+ /* FOR WHOLE CONTENT */
+*{
+          margin: 0px;
+          padding: 0px;
+}
+/* FOR BODY CONTENT */
+body{
+          /* background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=400); */
+          /* background-image: url(https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-color: rgb(3, 4, 40);
+          color: rgb(201, 208, 214);
+          font-family: 'poppins', sans-serif;
+}
+
+/* FOR NAVIGATION */
+nav{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 75px;
+          background-image: linear-gradient(to left , rgba(85, 0, 255, 0.596),rgba(3, 7, 56, 0.405));
+}
+
+#leftnav{
+          color-scheme:unset;
+          font-size: 1.4em;
+}
+
+/* FOR NAV BUTTONS */
+nav ul{
+          display: flex;
+          justify-content: space-evenly;
+          font-size: 1.2em;
+}
+nav ul li{
+          list-style-type:none;
+          margin: 0px 20px;
+}
+nav ul li a{
+          color: antiquewhite;
+          text-decoration: none;
+}
+nav ul li a:hover{
+          font-size: 1.24rem;
+          color: rgb(86, 2, 255);
+}
+
+
+
+/* *************FIRST SECTION**************** */
+.firstsection{
+          display: flex;
+          justify-content: space-around;
+          
+          background-color: rgba(215, 236, 255, 0.027);
+          
+          margin: 40px 40px;
+          background-blend-mode: saturation;
+          border-bottom: 2px solid violet;
+}
+.firstsection:hover{
+          background-color: rgba(215, 236, 255, 0.047);
+}
+.leftsection{
+          /* background-color:rgba(240, 248, 255, 0.474); */
+          font-size: 1.7rem;
+          width: 30%;
+          margin: 90px 0px;
+          justify-content: center;
+          align-content: center;
+
+}
+
+.rightsection{
+          /* background-color: rgba(240, 248, 255, 0.487); */
+          width: 30%;
+}
+.rightsection img{
+          margin: 20px 0px;
+}
+.leftsection span{
+          color: rgb(66, 66, 255);
+}
+hr{
+          border: 0px;
+          margin: 40px 84px;
+          background-color: rgb(25, 5, 66);
+          height: 0.2re;
+}
+
+/* ***********SECOND SECTION************ */
+.second-section{
+          display: flex;
+          justify-content: space-around;
+          align-content: center;
+          margin: 40px;
+
+}
+.second-left-part{
+          background-image:linear-gradient(to top,rgba(214, 214, 214, 0.002),rgba(219, 218, 218, 0.013));
+}
+.second-left-part:hover{
+          background-image:linear-gradient(to top,rgba(214, 214, 214, 0.006),rgba(219, 218, 218, 0.019));
+
+
+}
+.second-left-part span{
+          margin: 0px 85px;
+          color: rgb(174, 175, 175);
+          background-size: contain;
+}
+.second-header{
+          margin: 0px  80px;
+          font-size: 2.1rem;
+          color: blueviolet;
+          /* justify-content: center;
+          align-content: center; */
+
+}
+.bottom-line{
+          background-color: rgb(185, 185, 185);
+          width:30%;
+          height: 2px;
+          margin:0px 40px;
+}
+
+/* *****************QUALIFICATIONN******************* */
+
+.high-school{
+          display: flex;
+          margin: 20px 200px;
+          background-color: rgba(255, 154, 226, 0.02);
+
+}
+.high-school:hover{
+          background-color: rgba(255, 154, 226, 0.09);
+
+}
+.high-school h1{
+          margin-right: 20px;
+          color: rgb(155, 255, 56);
+}
+.vertical-line{
+          height: 100px;
+          width: 1.5px;
+          background-color: rgb(22, 207, 207);
+          
+}
+.school{
+          margin: 0px 20px;
+          width: 200px;
+}
+.bloom{
+          color: rgb(255, 63, 249);
+}
+.school-line{
+          
+          display: flex;
+          width: max-content;
+}
+
+/* ****************FOOTER*********** */
+footer{
+          /* background-color: rgb(51, 27, 124); */
+          background-image: linear-gradient(to top ,rgb(14, 16, 94), rgba(3, 4, 40, 0.042));
+          margin-top: 40px;
+          height: 100px;
+
+}
+.bottom-line-2{
+          background-color: rgb(185, 185, 185);
+          width:60%;
+          height: 2px;
+          margin:0px 40px;
+
+}
+footer h1{
+          margin: 0px 80px;
+}
